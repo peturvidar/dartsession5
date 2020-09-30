@@ -25,25 +25,12 @@
        simply keep going inside the loop, until condition finally becomes
        false.
 
-  Can you adapt the example to our problem?
+  Copy your code from ch6 and try to wrap a while loop around it!
 
  */
 
 import 'dart:io';
 
 void main() {
-  bool condition = true;
-  int userNumber;
 
-  while (condition) {
-    print('Enter the number 100.');
-    userNumber = int.parse(stdin.readLineSync());
-    condition = userNumber != 100;
-
-    if (condition) {
-      print('You are a bad, bad user! Try again!');
-    } else {
-      print('Well done dear user.');
-    }
-  }
 }

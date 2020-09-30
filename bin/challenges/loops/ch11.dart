@@ -23,6 +23,9 @@ void main() {
 
   // Yay for better way!
   List<String> operations = ['Add', 'Subtract', 'Multiply', 'Divide', 'Modulo'];
+  int opNbr = 0;
 
+  print('Choose an operation');
+  // For loop starts here.
 
 }

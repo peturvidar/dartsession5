@@ -1,6 +1,5 @@
 /*
   Write a program that asks the user to input a number between 0 and 4.
-  BONUS POINT: Specify what each number represents.
 
   Then, based on what the user inputs, print the following
 
@@ -23,16 +22,6 @@ void main() {
   int choice = int.parse(stdin.readLineSync());
   if (choice == 0) {
     print('Add');
-  } else if (choice == 1) {
-    print('Subtract');
-  } else if (choice == 2) {
-    print('Multiply');
-  } else if (choice == 3) {
-    print('Divide');
-  } else if (choice == 4) {
-    print('Modulo');
-  } else {
-    print('Unknown choice entered.');
-  }
+  } // else if .... keep going here.
 
 }

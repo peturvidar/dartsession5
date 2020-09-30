@@ -28,9 +28,6 @@ void main() {
   userNumber = int.parse(stdin.readLineSync());
   condition = userNumber != 100;
 
-  if (condition) {
-    print('You are a bad, bad user! Try again!');
-  } else {
-    print('Well done dear user.');
-  }
+  // Finish the code, start the if else block here!
+
 }
