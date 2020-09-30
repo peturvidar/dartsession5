@@ -22,6 +22,14 @@ void main() {
   int choice = int.parse(stdin.readLineSync());
   if (choice == 0) {
     print('Add');
-  } // else if .... keep going here.
+  } else if (choice == 1) {
+    print('Subtract');
+  } else if (choice == 2) {
+    print('Multiply');
+  } else if (choice == 3) {
+    print('Divide');
+  } else if (choice == 4) {
+    print('Modulo');
+  }
 
 }
