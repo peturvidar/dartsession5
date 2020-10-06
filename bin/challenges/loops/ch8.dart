@@ -16,12 +16,10 @@
 import 'dart:io';
 
 void main() {
-  bool condition = true;
   print('What should we countdown from?');
   int countDown = int.parse(stdin.readLineSync());
 
-  while (condition) {
-    condition = countDown > 0;
+  while (countDown >= 0) {
     print(countDown);
     countDown = countDown - 1;
   }
