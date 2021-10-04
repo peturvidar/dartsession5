@@ -21,25 +21,6 @@
 import 'dart:io';
 
 void main() {
-  bool condition;
-  int userNumber;
-
-  print('Enter the number 100.');
-  userNumber = int.parse(stdin.readLineSync());
-  condition = userNumber != 100;
-
-  if (condition) {
-    print('Bad user.');
-  } else{
-    print('Good user.');
-  }
-
-  // 99 == 100 -> False
-  // 100 == 100 -> true
-  // 99 != 100 -> true
-  // 100 != 100 -> false
-
-  // Finish the code, start the if else block here!
 
 
 }

@@ -22,6 +22,9 @@ void main() {
   while (countDown >= 0) {
     print(countDown);
     countDown = countDown - 1;
+    if (countdown < 0) {
+      break;
+    }
   }
   print("This is it, this is the countdown to extinction");
 }

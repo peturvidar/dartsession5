@@ -31,7 +31,6 @@ void main() {
   for (String item in shoppingList) {
     print('[$nbrItems/$itemsCollected] Fetching $item');
     // What short-hand can we use to increment nbrItems?
-    nbrItems++;
   }
   print('Checkout.');
 

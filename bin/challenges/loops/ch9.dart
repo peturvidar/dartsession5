@@ -45,8 +45,5 @@ void main() {
     }
   } else {
     print("It's monday!.");
-    for (int lap = lapsToComplete; lap > 0; lap--) {
-      print('Coach screams: $lap out of $lapsToComplete!');
-    }
   }
 }

@@ -27,9 +27,5 @@ void main() {
 
   print('Choose an operation');
   // For loop starts here.
-  for(String op in operations) {
-    print('[$opNbr]: $op');
-    opNbr++;
-  }
 
 }
